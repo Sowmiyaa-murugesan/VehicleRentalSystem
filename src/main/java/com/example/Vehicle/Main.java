@@ -29,7 +29,7 @@ public class Main {
             String phone = scanner.nextLine();
 
             customerService.addCustomer(name, email, phone);
-            System.out.println("✅ Customer added successfully!");
+            System.out.println(" Customer added successfully!");
 
 
             System.out.println("\nEnter Vehicle Details:");
@@ -43,7 +43,7 @@ public class Main {
             int battery = Integer.parseInt(scanner.nextLine());
 
             vehicleService.addVehicle(vehicleNumber, model, battery);
-            System.out.println("✅ Vehicle added successfully!");
+            System.out.println(" Vehicle added successfully!");
 
 
             System.out.println("\nEnter Booking Details:");
@@ -57,7 +57,7 @@ public class Main {
             String date = scanner.nextLine();
 
             bookingService.bookVehicle(customerId, vehicleId, date);
-            System.out.println("✅ Booking created successfully!");
+            System.out.println(" Booking created successfully!");
 
             System.out.println("\n=== All operations completed successfully! ===");
 
